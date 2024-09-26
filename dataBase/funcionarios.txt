@@ -1,0 +1,2 @@
+Administrador - admin@email.com - 40bd001563085fc35165329ea1ff5c5ecbdbbeef - 1995/10/06 - 2024/09/20 - (25) 09202/4210 - CEO - 25/09/2024 às 21:22 E - Administrador - Sim
+Usuário - usuario@email.com - 40bd001563085fc35165329ea1ff5c5ecbdbbeef - 1990/10/06 - 2024/09/20 - (26) 09202/4143 - Funcionário - 26/09/2024 às 16:00 E - Funcionário - Sim
