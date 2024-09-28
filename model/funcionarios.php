@@ -18,17 +18,18 @@
                 // apagando funcionario
                 unset($_POST["funcionario"], $_POST["email2"], $_POST["senha2"], $_POST["usuario"]);
 
-                $nome = $_POST["nome"];
-                $email = $_POST["email"];
-                $senha = $_POST["senha"];
-                $dataNasc = $_POST["dataNasc"];
-                $dataAdmissao = $_POST["dataAdmissao"];
-                $whatsapp = $_POST["whatsapp"];
-                $cargo = $_POST["cargo"];
-                $dataCadastro = date("d/m/Y @ H:i");
-                $privilegio = "Funcionário";
-                $isActive = "Não";
+                $nome = ucwords($_POST["nome"]);
+                $email = mb_strtolower($_POST["email"]);
+                $senha = sha1($_POST["senha"]);
+                $dataNasc = str_replace("-", "/", $_POST["dataNasc"]);
+                $dataAdmissao = str_replace("-", "/", $_POST["dataAdmissao"]);
+                $whatsapp = "(".str_replace("-", "/", $_POST["whatsapp"]);
+                $cargo = ucwords($_POST["cargo"]);
 
+                $dataCadastro = str_replace("@", "às", date("d/m/Y @ H:i"));
+                $privilegio = (isset($_POST["privilegio"])) ? ucwords($$_POST["privilegio"]) : "Funcionário";
+                $isActive = (isset($isActive) ? ucwords($_POST["isActive"]) : "Não");           
+                
                 $funcionario = new Funcionario( $nome, $email, $senha, $dataNasc, $dataAdmissao, $whatsapp, $cargo, $dataCadastro, $privilegio, $isActive );
                 
                 $dados = array_values($funcionario->dadosToArray());

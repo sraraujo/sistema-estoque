@@ -15,22 +15,20 @@
 
         public function __construct($nome, $email, $senha, $dataNasc, $dataAdmissao, $whatsapp, $cargo, $dataCadastro, $privilegio, $isActive){
 
-            $this->nome = ucwords($nome);
-            $this->email = mb_strtolower($email);
-            $this->senha = sha1($senha);
-            $this->dataNasc = str_replace("-", "/", $dataNasc);
-            $this->dataAdmissao = str_replace("-", "/",$dataAdmissao);
-            $this->whatsapp = "(".str_replace("-", "/", $whatsapp);
-            $this->cargo = ucwords($cargo);
-            $this->dataCadastro = str_replace("@", "às", $dataCadastro);
-            $this->privilegio = (isset($privilegio)) ? ucwords($privilegio) : "Funcionário";
-            $this->isActive = (isset($isActive) ? ucwords($isActive) : "Não");
-
+            $this->nome = $nome;
+            $this->email = $email;
+            $this->senha = $senha;
+            $this->dataNasc = $dataNasc;
+            $this->dataAdmissao = $dataAdmissao;
+            $this->whatsapp = $whatsapp;
+            $this->cargo = $cargo;
+            $this->dataCadastro = $dataCadastro;
+            $this->privilegio = $privilegio;
+            $this->isActive = $isActive;
         }
 
         public function dadosToarray(){
             return (array) $this;
         }
     }
-
 ?>
