@@ -15,5 +15,6 @@
         }    
 
         include_once "view/pagina-admin/layout.php";
+        include_once "layout.php";
     }
 ?>
