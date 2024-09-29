@@ -1,13 +1,1 @@
-Login de: Administrador  - Administrador  - 2024/09/27 - 15:22:29
-Login de: Usuário  - Usuário  - 2024/09/27 - 15:34:35
-Login de: Administrador  - Administrador  - 2024/09/28 - 10:53:34
-Login de: Usuário  - Usuário  - 2024/09/28 - 10:58:25
-Login de: Administrador  - Administrador  - 2024/09/28 - 15:55:02
-Login de: Administrador  - Administrador  - 2024/09/28 - 15:59:25
-Cadastro de funcionário: Maria Da Silva Araújo - Administrador  - 2024/09/28 - 16:29:25
-Exclusão de funcionário: Maria Da Silva Araújo - Administrador  - 2024/09/28 - 16:29:37
-Login de: Administrador  - Administrador  - 2024/09/28 - 20:29:22
-Login de: Administrador  - Administrador  - 2024/09/28 - 21:09:20
-Login de: Administrador  - Administrador  - 2024/09/28 - 21:36:29
-Login de: Administrador  - Administrador  - 2024/09/28 - 21:55:00
-Login de: Usuário  - Usuário  - 2024/09/28 - 22:24:22
+﻿
