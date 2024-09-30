@@ -4,12 +4,12 @@ Esse sistema de estoque foi criado no curso de PHP, pela Universidade Trabalho D
 
 Módulos  |  Acesso  / Pivilégio |
 ---------|----------------------|
-1. Vendas | *Usuários* e *Adminsitradores*
-2. Estoque | *Usuários* e *Adminsitradores*
-3. Clientes | *Usuários* e *Adminsitradores*
-4. Fornecedores | *Usuários* e *Adminsitradores*
-5. Funcionários | Apenas *Adminsitradores*
-6. Adminsitrativo | Apenas *Adminsitradores*
+Vendas | *Usuários* e * Adminsitradores *
+Estoque | *Usuários* e *Adminsitradores*
+Clientes | *Usuários* e *Adminsitradores*
+Fornecedores | *Usuários* e *Adminsitradores*
+Funcionários | Apenas *Adminsitradores*
+Adminsitrativo | Apenas *Adminsitradores*
 
 Para acessar [clique aqui](https://sistema-estoque-22e6243ec85d.herokuapp.com/login.php), escolha o e-mail e senha, faça o login para ver o  sistema funcionando.
 
