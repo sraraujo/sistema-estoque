@@ -1,6 +1,6 @@
 # O que é esse projeto?
 
-Esse sistema de estoque foi criado no curso de PHP, pela Universidade Trabalho Digital. Com o objetivo de colocar em prática o conehciemtno adquirido. O sistema dispôe de 6 módulos (que estarão disponíveis de acordo com os privilégios do usuário), são eles:
+Esse sistema de estoque foi criado no curso de PHP, pela Universidade Trabalho Digital. Com o objetivo de colocar em prática o conhecimento adquirido. O sistema dispôe de 6 módulos (que estarão disponíveis de acordo com os privilégios do usuário), são eles:
 
 Módulos  |  Acesso  / Pivilégio |
 ---------|----------------------|
