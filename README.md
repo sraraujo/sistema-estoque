@@ -4,7 +4,7 @@ Esse sistema de estoque foi criado no curso de PHP, pela Universidade Trabalho D
 
 Módulos  |  Acesso  / Pivilégio |
 ---------|----------------------|
-Vendas | *Usuários* e * Adminsitradores *
+Vendas | *Usuários* e *Adminsitradores*
 Estoque | *Usuários* e *Adminsitradores*
 Clientes | *Usuários* e *Adminsitradores*
 Fornecedores | *Usuários* e *Adminsitradores*
@@ -16,6 +16,7 @@ Para acessar [clique aqui](https://sistema-estoque-22e6243ec85d.herokuapp.com/lo
 Dados de login:
 
 *E-mail:* admin@email.com || *Senha:* 123
+
 *E-mail:* usuario@email.com || *Senha:* 123
 
 # Tecnologias utilziadas
