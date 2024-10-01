@@ -45,7 +45,7 @@
                                             <div class="small d-flex align-items-center justify-content-center my-1">
                                                 <!-- <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label> -->
-                                                <p>Não tem uma conta?  <a class="small" href="?admin=novoFuncionario"> Cadastre-se </a></p>
+                                                <!-- <p>Não tem uma conta?  <a class="small" href="?admin=novoFuncionario"> Cadastre-se </a></p> -->
                                             </div>
                                         </form>
                                     </div>
@@ -64,7 +64,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-center small">
-                            <div class="text-muted"> Sistema de Estoque &copy;  2024 || Contato: jap_araujo@hotmail.com </div>
+                            <div class="text-muted"> Sistema de Estoque &copy;  2024 </div>
 
                             <div class="small">
                                 <!-- Contato: suporte@email.com -->
