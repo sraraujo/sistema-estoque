@@ -40,13 +40,13 @@
                 <div class="row mb-3">
                     <div class="col-md-6">
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="isenha1" type="password" name="senha" placeholder="Enter your E-mail" onblur="validateSenha()" required />
+                            <input class="form-control" id="isenha" type="password" name="senha" placeholder="Enter your E-mail" onblur="validateSenha()" required />
                             <label for="isenha1"> Senha </label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-floating">
-                            <input class="form-control" id="isenha2" type="password" name="senha2" placeholder="Enter your E-mail" onblur="validateSenha()" required />
+                            <input class="form-control" id="senha2" type="password" name="senha2" placeholder="Enter your E-mail" onblur="validateSenha()" required />
                             <label for="isenha2"> Confirmar Senha </label>
                         </div>
                     </div>

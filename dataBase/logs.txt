@@ -1,1 +1,16 @@
-﻿
+﻿Login de: Administrador  - Administrador  - 2024/10/03 - 14:35:36
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:35:56
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:37:27
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:38:38
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:38:53
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:39:03
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:39:24
+Atualização de funcionário: Administrador - Administrador  - 2024/10/03 - 14:39:28
+Atualização de funcionário: Administrador - Administrador  - 2024/10/03 - 14:39:36
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:41:01
+Atualização de funcionário: Usuário - Administrador  - 2024/10/03 - 14:41:30
+Atualização de funcionário: Administrador - Administrador  - 2024/10/03 - 14:41:35
+Cadastro de funcionário: Jonas De Araújo Pereira - Administrador  - 2024/10/03 - 14:47:40
+Atualização de funcionário: Jonas De Araújo Pereira - Administrador  - 2024/10/03 - 14:48:01
+Exclusão de funcionário: Jonas De Araújo Pereira - Administrador  - 2024/10/03 - 14:48:16
+Login de: Usuário  - Usuário  - 2024/10/03 - 14:50:49

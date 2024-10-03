@@ -25,7 +25,7 @@
                 $whatsapp = "(".str_replace("-", "/", $_POST["whatsapp"]);
                 $cargo = (isset($_POST["cargo"]) ? ucwords($_POST["cargo"]) : "Funcionário");
                 $dataCadastro = str_replace("@", "às", date("d/m/Y @ H:i"));
-                $privilegio = (isset($_POST["privilegio"])) ? ucwords($$_POST["privilegio"]) : "Funcionário";
+                $privilegio = (isset($_POST["privilegio"])) ? ucwords($_POST["privilegio"]) : "Funcionário";
                 $isActive = (isset($isActive) ? ucwords($_POST["isActive"]) : "Não");           
                 
                 $funcionario = new Funcionario( $nome, $email, $senha, $dataNasc, $dataAdmissao, $whatsapp, $cargo, $dataCadastro, $privilegio, $isActive );
@@ -61,8 +61,8 @@
                 $whatsapp = "(".str_replace("-", "/", $_POST["whatsapp"]);
                 $cargo = (isset($_POST["cargo"]) ? ucwords($_POST["cargo"]) : "Funcionário");
                 $dataCadastro = date("d/m/Y @ H:i E");
-                $privilegio = (isset($_POST["privilegio"])) ? ucwords($$_POST["privilegio"]) : "Funcionário";
-                $isActive = (isset($isActive) ? ucwords($_POST["isActive"]) : "Não");   
+                $privilegio = (isset($_POST["privilegio"])) ? ucwords($_POST["privilegio"]) : "Funcionário";
+                $isActive = (isset($_POST["isActive"]) ? $_POST["isActive"] : "Não");   
 
                 $funcionario = new Funcionario( $nome, $email, $senha, $dataNasc, $dataAdmissao, $whatsapp, $cargo, $dataCadastro, $privilegio, $isActive );
 
