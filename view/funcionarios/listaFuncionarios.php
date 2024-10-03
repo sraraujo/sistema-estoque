@@ -45,7 +45,7 @@
                 <tr>
                   <td> <?= ($key + 1) ?> </td>
                   <!-- nome -->
-                  <td> <?= $funcionario[0]; ?> </td>
+                  <td> <?= str_replace("@", "-", $funcionario[0]); ?> </td>
                   <!-- e-mail -->
                   <td> <?= str_replace("/", "-", $funcionario[1]); ?> </td>
                   <!-- wpp -->

@@ -50,8 +50,8 @@
                 $_POST["nome"] = ucwords($_POST["nome"]);
                 $_POST["cnpj"] = str_replace("@", "-", $_POST["cnpj"]);
                 $_POST["email1"] = mb_strtolower($_POST["email1"]);
-                $_POST["telefone"] = "(".$_POST["telefone"];
                 $_POST["whatsapp"] = "(".$_POST["whatsapp"];
+                $_POST["telefone"] = "(".$_POST["telefone"];
                 $_POST["DataCadastro"] = (isset ($_POST["DataCadastro"])) ? $_POST["DataCadastro"] : date("Y/m/d");
 
                 $fornecedor = file("../dataBase/fornecedores.txt");

@@ -27,3 +27,16 @@ function validateSenha(){
 
     }
 }
+
+function validarPreco(){
+
+    let compra = document.querySelector("#precoCompra").value.replace(",", ".");
+    let venda = document.querySelector("#precoVenda").value.replace(",", ".");
+
+    if(compra.length > 0 && venda.length > 0 && parseFloat(compra) >= parseFloat(venda)){
+        
+        window.alert("[ ERRO ] - O valor de venda deve ser maior que o valor de compra, tente novamente!");
+        document.getElementById("precoCompra").value = "";
+        document.getElementById("precoVenda").value = "";
+    }
+}

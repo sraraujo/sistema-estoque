@@ -69,18 +69,19 @@
     </div>
 </div>
 
+<script src="view/assets/js/formulario.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/0.9.0/jquery.mask.min.js"></script>
-    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/0.9.0/jquery.mask.min.js"></script>
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#precoCompra').mask('000.000,00', {
-                reverse: true
-            });
-            $('#precoVenda').mask('000.000,00', {
-                reverse: true
-            });
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#precoCompra').mask('000.000,00', {
+            reverse: true
         });
-    </script>
+        $('#precoVenda').mask('000.000,00', {
+            reverse: true
+        });
+    });
+</script>
